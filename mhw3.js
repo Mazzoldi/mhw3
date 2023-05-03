@@ -76,6 +76,7 @@ function onJson_bet(json){
         }
     }
     if(trovato){
+	titolo_primo.textContent='Quote match';
         titolo_primo.classList.remove('hidden');
     }
     else{
