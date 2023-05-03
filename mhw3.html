@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Football.news</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="mhw3.css"/>
+		<script src="mhw3.js" defer="true"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<form name='search_content' id='search_content'>
+			<h1>Bet and news</h1>
+			<label>Scegli la squadra o il campionato: <input type='text' name='content' id='content'></label>
+			<select name = 'tipo' id='tipo'>
+				<option value='squadra'>Squadra</option>
+				<option value='campionato'>Campionato</option>
+			</select>
+			<label>&nbsp;<input class="submit" type='submit'></label>
+		</form>
+		<h1 class="hidden" id="titolo_primo">Quote match</h1>
+		<article class="album-view" id="future"></article>
+		<h1 class="hidden" id="titolo">Partite recenti</h1>
+		<article class="album-view" id="recent"></article>
+	</body>
+</html>
